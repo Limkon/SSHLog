@@ -1,9 +1,12 @@
-name: Deploy
+name: SSHLog Deploy
 
 on:
   push:
     branches:
       - master
+  workflow_dispatch:  # 允许手动触发
+  schedule:
+    - cron: "0 0 */10 * *"  # 每 10 天运行一次
 
 jobs:
   deploy:
