@@ -1,4 +1,5 @@
 在GitHub仓库的Settings>>Secrets and variables中Actions添加以下Secret：  
+SERVERS_INFO  
 panel2.serv00.com momoXX 19821124XX  
 panel2.serv00.com zootXX 19821124XX  
 panel1.serv00.com sonbaXX 19821124XX  
